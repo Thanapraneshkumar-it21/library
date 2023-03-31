@@ -13,7 +13,7 @@ st.title("Python Talks Search Engine")
 # Connect to the Google Sheet
 sheet_id = "1nctiWcQFaB5UlIs6z8d1O6ZgMHFDMAoo3twVxYnBUws"
 sheet_name = "charlas"
-url = f"<https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}>"
+url = f"<https://docs.google.com/spreadsheets/d/{1nctiWcQFaB5UlIs6z8d1O6ZgMHFDMAoo3twVxYnBUws}/gviz/tq?tqx=out:csv&sheet={charlas}>"
 df = pd.read_csv(url, dtype=str).fillna("")
 
 # Show the dataframe (we'll delete this later)
